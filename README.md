@@ -1,3 +1,5 @@
+# quarkus langchain4j lab
+
 # quarkus-langchain4j-test
 
 This project uses Quarkus, the Supersonic Subatomic Java Framework.
