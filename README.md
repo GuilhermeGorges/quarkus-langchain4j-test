@@ -1,5 +1,3 @@
-# quarkus langchain4j lab
-
 # quarkus-langchain4j-test
 
 This project uses Quarkus, the Supersonic Subatomic Java Framework.
@@ -10,7 +8,7 @@ If you want to learn more about Quarkus, please visit its website: https://quark
 
 You can run your application in dev mode that enables live coding using:
 ```shell script
-./mvnw compile quarkus:dev----------------------------------
+./mvnw compile quarkus:dev
 ```
 
 > **_NOTE:_**  Quarkus now ships with a Dev UI, which is available in dev mode only at http://localhost:8080/q/dev/.
@@ -53,7 +51,6 @@ If you want to learn more about building native executables, please consult http
 
 - REST ([guide](https://quarkus.io/guides/rest)): A Jakarta REST implementation utilizing build time processing and Vert.x. This extension is not compatible with the quarkus-resteasy extension, or any of the extensions that depend on it.
 - REST Client ([guide](https://quarkus.io/guides/rest-client)): Call REST services
-- RESTEasy Classic's REST Client Jackson ([guide](https://quarkus.io/guides/resteasy-client)): Jackson serialization support for the REST Client
 - SmallRye Health ([guide](https://quarkus.io/guides/smallrye-health)): Monitor service health
 
 ## Provided Code
